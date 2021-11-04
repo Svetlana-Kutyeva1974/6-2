@@ -3,7 +3,7 @@ import character from './basic.js';
 
 export default function t([{
   id, name, icon, description = 'описание недоступно',
-}, ...obj] = []) {
+}, ...obj]) {
   obj[0].description = 'описание недоступно';
 
   return [{
