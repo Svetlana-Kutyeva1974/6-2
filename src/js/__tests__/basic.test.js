@@ -1,6 +1,6 @@
 import character from '../basic.js';
 
-test('return sort obj', () => {
+test('Создание обьекта', () => {
   const { special } = character;
   expect(special).toEqual([
     {
